@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://kit.fontawesome.com/773335bcdf.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+	<link href="https://liveexam.co.in/UIContent/plugins/toastr/css/toastr.css" rel="stylesheet"/>
+	<script src="https://liveexam.co.in/UIContent/plugins/jquery/jquery.min.js"></script>
+	<link rel="icon" type="image/ico" href="image/favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://liveexam.co.in/UIContent/plugins/toastr/js/toastr.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>JD's Caffe</title>
+</head>
+<body>
+	<div class="navbar">
+		<div class="items col-1">
+			<ol>
+				<li><a href="">Home</a></li>
+				<li><a href="">Contact-Us</a></li>
+				<li><a href="Order">Order</a></li>
+				<li><a href="">Cart</a></li>
+				<li><a class="totop">TOP <i class="fa fa-arrow-circle-up" style="font-size: 20px;"></i></a></li>
+			</ol>
+		</div>
+			<div class="item">
+				<ol>
+					<li>Cart Items: <span><i class="fas fa-shopping-cart"></i></span></li>
+					<li><a href="" id="clearbtn">Clear Cart</a></li>
+				</ol>
+			</div>
+		<div id="text_head">Welcome to JD's Caffee</div>
+	</div>
+	<div class="Burgers">
+		<h1>Burgers</h1>
+		<ol>
+			<li><img src="image/crispyburger.jpg" alt="" /><br><div>Crispy Chicken Burger</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 85</span><br><button>Add to Cart</button></li>
+			<li><img src="image/vegburger.jpg" alt="" /><br><div>Veg Burger</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 60</span><br><button>Add to Cart</button></li>
+			<li><img src="image/cheeseburger.jpg" alt="" /><br><div>Cheese Burger</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 75</span><br><button>Add to Cart</button></li>
+		</ol>
+	</div>
+	<hr>
+	<div class="Burgers" style="margin-top: -6rem;">
+		<h1>Shawarmas</h1>
+		<ol>
+			<li><img src="image/chickenshawarma.jpg" alt="" /><br><div>Chicken Shawarma</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 50</span><br><button>Add to Cart</button></li>
+			<li><img src="image/cheeseshawarma.jpg" alt="" /><br><div>Cheese Shawarma</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 70</span><br><button>Add to Cart</button></li>
+			<li><img src="image/paneershawarma.jpg" alt="" /><br><div>Paneer Shawarma</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 60</span><br><button>Add to Cart</button></li>
+		</ol>
+	</div>
+	<hr>
+	<div class="Burgers" style="margin-top: -6rem;">
+		<h1>Pizzas</h1>
+		<ol>
+			<li style="padding: 25px;"><img src="image/chickencheesepizza.jpg" alt="" /><br><div>Chicken Cheese Pizza</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 130</span><br><button>Add to Cart</button></li>
+			<li style="padding: 25px;"><img src="image/chickenroyalpizza.jpg" alt="" /><br><div>Chicken Royal Pizza</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 150</span><br><button>Add to Cart</button></li>
+			<li style="padding: 25px;"><img src="image/paneerpizza.jpg" alt="" /><br><div>Paneer Pizza</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 130</span><br><button>Add to Cart</button></li>
+			<li style="padding: 25px;"><img src="image/vegpizza.jpg" alt="" /><br><div>Veg Pizza</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 110</span><br><button>Add to Cart</button></li>
+		</ol>
+	</div>
+	<hr>
+	<div class="Burgers" style="margin-top: -6rem;">
+		<h1>French Fries</h1>
+		<ol>
+			<li style="padding: 25px;"><img src="image/frenchfries.jpg" alt="" /><br><div>French Fries (100) GM</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 50</span><br><button>Add to Cart</button></li>
+			<li style="padding: 25px;"><img src="image/periperifries.jpg" alt="" /><br><div>Peri Peri Fries</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 70</span><br><button>Add to Cart</button></li>
+			<li style="padding: 25px;"><img src="image/mayofries.jpg" alt="" /><br><div>Mayo Fries</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 60</span><br><button>Add to Cart</button></li>
+			<li style="padding: 25px;"><img src="image/cheesefries.jpg" alt="" /><br><div>Cheese Fries</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 70</span><br><button>Add to Cart</button></li>
+		</ol>
+	</div>
+	<hr>
+	<div class="Burgers" style="margin-top: -6rem;">
+		<h1>Chicken Items</h1>
+		<ol>
+			<li style="padding: 25px;"><img src="image/chickenuggets.jpg" alt="" /><br><div>Chicken Nuggets</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 150</span><br><button>Add to Cart</button></li>
+			<li style="padding: 25px;"><img src="image/chickenstrips.jpg" alt="" /><br><div>Chicken Strips (6 Pieces)</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 170</span><br><button>Add to Cart</button></li>
+			<li style="padding: 25px;"><img src="image/chickendrum.jpg" alt="" /><br><div>Chicken Drum (6 Pieces)</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 250</span><br><button>Add to Cart</button></li>
+			<li style="padding: 25px;"><img src="image/chickenbucket.jpg" alt="" /><br><div>Chicken Bucket</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 380</span><br><button>Add to Cart</button></li>
+		</ol>
+		<ol>
+			<li style="padding: 80px;"><img src="image/chickenbiryani.jpg" alt="" /><br><div>Chicken Biryani</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 100</span><br><button>Add to Cart</button></li>
+			<li style="padding: 80px;"><img src="image/chickenseekh.jpg" alt="" /><br><div>Chicken Seekh (2 Peices)</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 70</span><br><button>Add to Cart</button></li>
+			<li style="padding: 80px;"><img src="image/chickenbhuna.jpg" alt="" /><br><div>Chicken Bhuna</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 80</span><br><button>Add to Cart</button></li>
+		</ol>
+	</div>
+	<hr>
+	<div class="Burgers" style="margin-top: -6rem;">
+		<h1>Other Items</h1>
+		<ol>
+			<li style="padding: 80px;"><img src="image/paratha.jpg" alt="" /><br><div>Paratha (Per Peice)</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 10</span><br><button>Add to Cart</button></li>
+			<li style="padding: 80px;"><img src="image/coldrinks.jpg" alt="" /><br><div>Cold Drinks</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 20</span><br><button>Add to Cart</button></li>
+			<li style="padding: 80px;"><img src="image/water.jpg" alt="" /><br><div>Water</div><span style="font-weight: bolder;font-size: 20px;">Price : Rs 20</span><br><button>Add to Cart</button></li>
+		</ol>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

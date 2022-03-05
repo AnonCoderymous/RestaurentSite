@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://kit.fontawesome.com/773335bcdf.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+	<link href="https://liveexam.co.in/UIContent/plugins/toastr/css/toastr.css" rel="stylesheet"/>
+	<script src="https://liveexam.co.in/UIContent/plugins/jquery/jquery.min.js"></script>
+	<link rel="icon" type="image/ico" href="../image/favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://liveexam.co.in/UIContent/plugins/toastr/js/toastr.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<title>Register to Site</title>
+	<style type="text/css">
+		body{
+			font-family: 'PT Sans Narrow', sans-serif;
+		}
+		.mid_upper{
+			width: 100%;
+			margin-top: 5rem;
+		}
+		.mid_upper > img {
+			border-radius: 100%;
+			height: 150px;
+			margin-right: auto;
+			margin-left: auto;
+			display: block;
+		}
+		form{
+			width: 100%;
+			max-width: 1500px;
+			min-width: 500px;
+			text-align: center;
+			margin-bottom: 5rem;
+			margin-top: 3rem;
+		}
+		form > label {
+			font-size: x-large;
+			font-weight: medium;
+
+		}
+		form > input::placeholder{
+			font-family: 'PT Sans Narrow', sans-serif;
+		}
+		form > input[type="text"], textarea{
+			margin-bottom: 1rem;
+			font-size: large;
+			font-family: 'PT Sans Narrow', sans-serif;
+			width: 20%;
+			box-shadow: 1px 2px 4px 1px black;
+			padding: 7px;
+			font-weight: bolder;
+			color: gray;
+			resize: none;
+			border-radius: 5px;
+			background: transparent;
+			border: none;
+			outline: none;
+		}
+		form > input[type="submit"]{
+			width: 17%;
+			font-family: 'PT Sans Narrow', sans-serif;
+			width: 20%;
+			box-shadow: 1px 2px 4px 1px black;
+			padding: 7px;
+			font-weight: bolder;
+			color: black;
+			cursor: pointer;
+			resize: none;
+			border-radius: 5px;
+			background: deepskyblue;
+			border: none;
+			outline: none;
+			-webkit-transition: background 0.2s linear;
+			transition: background 0.2s linear;
+		}
+		form > input[type="submit"]:hover{
+			background: yellow;
+			top: 50;
+			left: 50;
+		}
+		@media (max-width: 991px){
+			.navbar{
+				height: 50px;
+			}
+			.navbar > .items > ol > li {
+				display: inline-block;
+				padding: 10px;
+			}
+			form > input[type="text"]{
+				width: 70%;
+			}
+			form > input[type="submit"]{
+				width: 50%;
+			}
+			form {
+				width: 100%;
+				max-width: 50px;
+				text-align: left;
+			}
+			textarea{
+				width: 70%;
+				height: 5rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<div class="items col-1">
+			<ol>
+				<li><a href="../../JDCaffe">Home</a></li>
+				<li><a href="">Contact-Us</a></li>
+			</ol>
+		</div>
+		<div id="text_head">Register to JD's Caffe</div>
+	</div>
+	<div class="mid_upper">
+		<img src="../image/favicon.ico" alt=""/>
+	</div>
+		<form method="dialog" autocomplete="off" autocapitalize="on">
+			<label>Enter your name</label>
+			<br>
+			<input type="text" name="name" placeholder="Your name" maxlength="40" autofocus required> <br>
+			<label>Enter your number</label>
+			<br>
+			<input type="text" name="number" placeholder="Your number" maxlength="10" autofocus required><br>
+			<label>Enter your address</label>
+			<br>
+			<textarea placeholder="Your address" maxlength="80" name="address" required></textarea>
+			<br><br>
+			<input type="submit" name="btn" value="Register">
+		</form>
+		<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
